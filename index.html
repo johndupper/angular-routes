@@ -1,5 +1,5 @@
 <!doctype html>
-    <html lang="en" ng-app="myApp">
+    <html lang="en" ng-app="myApp"><!-- app -->
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -8,11 +8,11 @@
         <title>Movies</title>
     </head>
 
-
-    <body ng-controller="moviesCtrl as $ctrl">
+    <body ng-controller="moviesCtrl as $ctrl"><!-- controller -->
         <div class="container">
             <h1>{{ $ctrl.title }}</h1>
         </div>
+
 
         <!-- don't forget to link dependencies! -->
         <script src="node_modules/angular/angular.min.js"></script>
