@@ -11,10 +11,12 @@
 
     <body ng-controller="moviesCtrl as $ctrl">
         <div class="container">
-            <h1>Movies</h1>
+            <h1>{{ $ctrl.title }}</h1>
         </div>
 
-
+        <!-- don't forget to link dependencies! -->
+        <script src="node_modules/angular/angular.min.js"></script>
+        <script src="node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
         <script type="text/javascript" src="app.js"></script>
     </body>
 </html>
